@@ -1,0 +1,6 @@
+require 'rubygems'
+require 'bloomr'
+
+b = Bloom.new(1000)
+
+("a".."z").each {|c| b.add(c)}
